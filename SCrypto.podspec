@@ -9,6 +9,7 @@ Pod::Spec.new do |spec|
 
   spec.osx.deployment_target = '10.11'
   spec.ios.deployment_target = '9.0'
+  spec.watchos.deployment_target = '2.0'
 
   spec.requires_arc = true
   spec.source = { git: "https://github.com/sgl0v/SCrypto.git", tag: spec.version.to_s, submodules: true }
